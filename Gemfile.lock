@@ -1,7 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    awesome_print (1.9.2)
     data_uri (0.1.0)
+    date (3.3.3)
     ffi (1.15.5)
     ffi-rzmq (2.0.7)
       ffi-rzmq-core (>= 1.0.7)
@@ -29,7 +31,9 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  irb
+  awesome_print
+  date
+  irb (~> 1.6.4)
   iruby
 
 BUNDLED WITH
