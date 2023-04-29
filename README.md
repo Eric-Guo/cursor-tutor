@@ -19,3 +19,15 @@ Go cursor Extensions and search Jupyter and enable it. (default is disable)
 ### Open python.ipynb
 
 Hit the "Run All" and please make sure your network is perfect at first time as it will install a lot of pip packages.
+
+### Install iruby
+
+
+```bash
+gem install iruby
+```
+
+### Open ruby.ipynb
+
+
+Hit the "Run All" and enjoy.
