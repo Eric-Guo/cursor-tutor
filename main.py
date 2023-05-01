@@ -1,6 +1,7 @@
 # Welcome to Cursor
-
-
+import torch
+torch.__version__
+print(torch.device("mps"))
 
 # 1. Try generating with command K on a new line. Ask for a pytorch script of a feedforward neural network
 # 2. Then, select the outputted code and hit chat. Ask if there's a bug. Ask how to improve.
