@@ -18,3 +18,6 @@ lm = LinearRegression()
 lm.fit(X, y)
 
 torch.save(lm, "california.pth")
+
+model=torch.load('california.pth')
+model.predict([[3,20,3]])
